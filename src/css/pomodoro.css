@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary-color: #1e212d;
+  --bg-off-white: #e2e7ec;
+  --border-off-white: #e2e7ec;
+  --font-white: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--font-white);
+  text-align: center;
+}
+
+.main {
+  margin-top: 5rem;
+}
+
+.main .heading {
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+
+.main .statistics {
+  margin: 2rem 0rem;
+}
+
+.main .statistics h6 {
+  display: inline-block;
+  margin: 0rem 1.6rem;
+  font-size: 1.6rem;
+}
+
+.main .actions-wrapper p {
+  font-size: 1.4rem;
+}
+
+.main .actions-wrapper button {
+  background-color: var(--bg-off-white);
+  height: 3rem;
+  width: 3rem;
+  line-height: 100%;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 2rem;
+}
+
+.main .actions-wrapper button:hover, .main .actions-wrapper button:active {
+  color: var(--font-white);
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #6a9579;
+}
+
+.main .actions-wrapper span {
+  padding: 0rem 1rem;
+  font-size: 2rem;
+}
+
+.main .clock-container .clock-counter {
+  background-color: var(--bg-off-white);
+  margin: 2rem 0rem;
+  padding: 2rem 0rem;
+  border: 2px solid var(--bg-off-white);
+  border-radius: 2rem;
+}
+
+.main .clock-container .clock-counter .countdown {
+  font-size: 8rem;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.main .clock-container .heading {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+.main .clock-container .action-buttons button {
+  background-color: var(--bg-off-white);
+  height: 3rem;
+  width: 3rem;
+  line-height: 100%;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 2rem;
+  margin: 0rem 1rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+.main .clock-container .action-buttons button:hover, .main .clock-container .action-buttons button:active {
+  color: var(--font-white);
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #6a9579;
+}
+/*# sourceMappingURL=pomodoro.css.map */
