@@ -32,6 +32,7 @@ class Pomodoro extends Component {
         return `${minutes}:${seconds}`;
     };
 
+    // this function is to handle the play and pause activity
     handlePlayPause = () => {
         const { isCounterStarted } = this.state;
         if (isCounterStarted) {
